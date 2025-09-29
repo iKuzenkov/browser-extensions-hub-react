@@ -1,14 +1,14 @@
-## Project Description
+# Project Description
 
 ---
 
-# Production: https://browser-extensions-hub.vercel.app/
+## Production: https://browser-extensions-hub.vercel.app/
 
-# Hoisting: https://vercel.com/
+## Hoisting: https://vercel.com/
 
 ---
 
-# This React app displays information to users of the following extensions.
+## This React app displays information to users of the following extensions.
 
 - Safe Auto Clicker: https://chromewebstore.google.com/detail/mgadnfjigmdiljhffhjlopjfibddkneh?utm_source=item-share-cb
 - To-Do List: https://chromewebstore.google.com/detail/mibfplaelemmjmeljhlfnhdmmajgdeio?utm_source=item-share-cb
