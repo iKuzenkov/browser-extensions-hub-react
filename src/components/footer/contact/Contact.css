@@ -23,7 +23,6 @@
 .contact-container {
   margin: 0 auto;
   max-width: 75rem;
-  background: linear-gradient(135deg, #543f69, #695a29);
   min-height: 100vh;
   padding: 2.5rem 1.25rem;
   display: flex;

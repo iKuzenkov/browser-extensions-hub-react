@@ -2,9 +2,9 @@ import "./ToDo.css";
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
 
-import img1 from "../../images/todo/initial-state.png";
-import img2 from "../../images/todo/no-edit-tasks.png";
-import img3 from "../../images/todo/edit-tasks.png";
+import img1 from "../../assests/images/todo/initial-state.png";
+import img2 from "../../assests/images/todo/no-edit-tasks.png";
+import img3 from "../../assests/images/todo/edit-tasks.png";
 
 function toDo({ data: { name, description, label, usage, btnBack } }) {
   return (

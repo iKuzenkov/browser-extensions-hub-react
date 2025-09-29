@@ -2,20 +2,20 @@ import "./AutoClicker.css";
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
 
-import img1 from "../../images/autoclicker/in-progress-white-theme.png";
-import img2 from "../../images/autoclicker/start-black-theme.png";
-import img3 from "../../images/autoclicker/start-white-theme.png";
+import img1 from "../../assests/images/autoclicker/in-progress-white-theme.png";
+import img2 from "../../assests/images/autoclicker/start-black-theme.png";
+import img3 from "../../assests/images/autoclicker/start-white-theme.png";
 
 function AutoClicker({ data: { name, description, label, usage, btnBack } }) {
   return (
     <>
       <div className="ac-container">
-        <div className="ac-back">
-          <h3>
-            <Link to="..">{btnBack}</Link>
-          </h3>
-        </div>
         <section className="ac-title">
+          <div className="ac-back">
+            <h3>
+              <Link to="..">{btnBack}</Link>
+            </h3>
+          </div>
           <h2>{name}</h2>
           <h4 className="ac-description">{description}</h4>
         </section>
