@@ -2,6 +2,12 @@
 
 ---
 
+# Production: https://browser-extensions-hub.vercel.app/
+
+# Hoisting: https://vercel.com/
+
+---
+
 # This React app displays information to users of the following extensions.
 
 - Safe Auto Clicker: https://chromewebstore.google.com/detail/mgadnfjigmdiljhffhjlopjfibddkneh?utm_source=item-share-cb
