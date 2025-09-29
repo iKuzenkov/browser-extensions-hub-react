@@ -2,9 +2,9 @@ import "./AutoClicker.css";
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
 
-import img1 from "../../assests/images/autoclicker/in-progress-white-theme.png";
-import img2 from "../../assests/images/autoclicker/start-black-theme.png";
-import img3 from "../../assests/images/autoclicker/start-white-theme.png";
+import img1 from "../../assets/images/autoclicker/in-progress-white-theme.png";
+import img2 from "../../assets/images/autoclicker/start-black-theme.png";
+import img3 from "../../assets/images/autoclicker/start-white-theme.png";
 
 function AutoClicker({ data: { name, description, label, usage, btnBack } }) {
   return (
