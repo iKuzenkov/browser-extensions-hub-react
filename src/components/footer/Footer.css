@@ -21,3 +21,10 @@
   background: linear-gradient(135deg, #94ee8a, #46d8dd);
   box-shadow: 0 0 0.5rem 0.5rem rgba(19, 241, 93, 0.3);
 }
+
+@media (max-width: 292px) {
+  .info {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+}
