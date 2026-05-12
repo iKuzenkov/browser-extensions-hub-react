@@ -2,9 +2,10 @@ import "./AutoClicker.css";
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
 
-import img1 from "../../assets/images/autoclicker/in-progress-white-theme.png";
-import img2 from "../../assets/images/autoclicker/start-black-theme.png";
-import img3 from "../../assets/images/autoclicker/start-white-theme.png";
+import img1 from "../../assets/images/autoclicker/white-theme.jpg";
+import img2 from "../../assets/images/autoclicker/white-theme-data.jpg";
+import img3 from "../../assets/images/autoclicker/dark-theme.jpg";
+import img4 from "../../assets/images/autoclicker/dark-theme-data.jpg";
 
 function AutoClicker({ data: { name, description, label, usage, btnBack } }) {
   return (
@@ -21,7 +22,7 @@ function AutoClicker({ data: { name, description, label, usage, btnBack } }) {
         </section>
         <section className="ac-responsive-iframe">
           <iframe
-            src="https://www.youtube.com/embed/iBWH1rpaoWM"
+            src="https://www.youtube.com/embed/RJJUxyYnuS4"
             title="Safe Auto Clicker"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -30,9 +31,22 @@ function AutoClicker({ data: { name, description, label, usage, btnBack } }) {
           ></iframe>
         </section>
         <section className="ac-images-wrapper">
-          <img src={img1} alt="progress-white-theme" />
-          <img src={img2} alt="start-black-theme" />
-          <img src={img3} alt="start-white-theme" />
+          <img
+            src={img1}
+            alt="white theme"
+          />
+          <img
+            src={img2}
+            alt="white theme with time"
+          />
+          <img
+            src={img3}
+            alt="dark theme"
+          />
+          <img
+            src={img4}
+            alt="dark theme with time"
+          />
         </section>
         <section className="ac-usage">
           <h2>{label}</h2>
