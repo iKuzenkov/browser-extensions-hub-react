@@ -1,5 +1,11 @@
 # Project Description
 
+Browser Extensions Hub is a React-based web application that serves as an informational hub for browser extensions.
+
+The project presents and describes the functionality of several extensions, helping users quickly understand their purpose and navigate to the Chrome Web Store for installation.
+
+The focus is on clean UI structure, routing, and smooth navigation between extension pages.
+
 ---
 
 ## Production: https://browser-extensions-hub.vercel.app/
@@ -10,8 +16,8 @@
 
 ## This React app displays information to users of the following extensions.
 
-- Safe Auto Clicker: https://chromewebstore.google.com/detail/mgadnfjigmdiljhffhjlopjfibddkneh?utm_source=item-share-cb
-- To-Do List: https://chromewebstore.google.com/detail/mibfplaelemmjmeljhlfnhdmmajgdeio?utm_source=item-share-cb
+- Safe Auto Clicker: https://chromewebstore.google.com/detail/mgadnfjigmdiljhffhjlopjfibddkneh
+- To-Do List: https://chromewebstore.google.com/detail/mibfplaelemmjmeljhlfnhdmmajgdeio
 
 ---
 
@@ -99,7 +105,7 @@ src/
 npm install
 
 # Start the dev server
-npm start
+npm run start
 
 # Build the project
 npm run build
